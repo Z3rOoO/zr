@@ -1,0 +1,16 @@
+{
+  "build": {
+    "production": {
+      "ios": null,
+      "android": null,
+      "web": {
+        "image": "ubuntu-22.04",
+        "node": "22.11.0",
+        "env": {
+          "EXPO_PUBLIC_ENV": "production"
+        }
+      }
+    }
+  },
+  "submit": {}
+}
